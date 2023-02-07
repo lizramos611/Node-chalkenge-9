@@ -107,16 +107,16 @@ inquirer.prompt ([
    
     
     ]);
-// TODO: Create a function to write README file
+// creating the function to write all questions to file
 function writeToFile(fileName, data){
     writeToFile.then(function () {
         console.log('Read me complete!')
     })
 }
 
-// TODO: Create a function to initialize app
-    function init(){
-        inquirer.prompt(questions).then(function)
+//creating a function to initialize the app
+    const init = () => {
+        return inquirer.prompt(questions);
     }
     
 
@@ -124,5 +124,12 @@ function writeToFile(fileName, data){
 
 
 
-// Function call to initialize app
-init();
+// call to initialize app
+init() 
+.then(userInput => {
+    return generateMarkdown(userInput);
+
+})
+.catch(err => {
+    console.log(err);
+});
