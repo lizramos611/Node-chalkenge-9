@@ -57,6 +57,8 @@ return licenseSection;
 const generateMarkdown = (data) => {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
+  ${renderLicenseSection(data.license)}
 
   # Description: ${data.description}
 
