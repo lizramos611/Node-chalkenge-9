@@ -1,30 +1,16 @@
-# titlename
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+* ReadME Generator using node and npm inquirer!
 
-  # Description: this is a short example
+-A professional readME file can now be created with easy and simplicity by answering a few questions on your terminal!
 
 
-  ##Table of Contents
- * [License] (#license)
- * [Usage] (#usage)
- * [Testing] (#test)
- * [Contributors] (#contributors)
- * [Questions] (#questions)
-  
+Requirments!
+-have node.js installed on your machine https://nodejs.org/en/
+-then you must also download the inquirer package but entering npm install inquirer onto your terminal after node is installed!
 
-  ## License
-  Licensed used for this project was Apache
+<img width="617" alt="Screenshot 2023-02-06 at 8 48 34 PM" src="https://user-images.githubusercontent.com/111591265/217127210-851b66ef-56b1-4da1-87fa-591cf8a48688.png">
 
-  ## Usage
-  testing for class
+<br>
 
-  ## Testing
-  testing with node
+<img width="1424" alt="Screenshot 2023-02-06 at 8 49 00 PM" src="https://user-images.githubusercontent.com/111591265/217127261-e3841e3a-a460-43e4-b25b-2d65c84de0f1.png">
 
-  ## Contributors
-  together
-
-  ## Questions
-  If you have any questions, you may contact me liz.ramos@aim.com
-My Github username is https://github.com/lizramos611
-
+<br>
