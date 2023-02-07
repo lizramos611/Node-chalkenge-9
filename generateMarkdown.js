@@ -62,11 +62,11 @@ const generateMarkdown = (data) => {
 
 
   ##Table of Contents
- * License (#license)
- * Usage (#usage)
- * Testing (#test)
- * Contributors (#contributors)
- * Questions (#questions)
+ * [License] (#license)
+ * [Usage] (#usage)
+ * [Testing] (#test)
+ * [Contributors] (#contributors)
+ * [Questions] (#questions)
   
 
   ## License
