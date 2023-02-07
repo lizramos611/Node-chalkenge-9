@@ -1,30 +1,30 @@
 # titlename
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
-  # Description: dfmffgs
+  # Description: this is a short example
 
 
   ##Table of Contents
- * License (#license)
- * Usage (#usage)
- * Testing (#test)
- * Contributors (#contributors)
- * Questions (#questions)
+ * [License] (#license)
+ * [Usage] (#usage)
+ * [Testing] (#test)
+ * [Contributors] (#contributors)
+ * [Questions] (#questions)
   
 
   ## License
-  Licensed used for this project was MIT
+  Licensed used for this project was Apache
 
   ## Usage
-  use
+  testing for class
 
   ## Testing
-  npm t
+  testing with node
 
   ## Contributors
-  fefndf
+  together
 
   ## Questions
-  If you have any questions, you may contact me liz.ramos
-My Github username is https://github.com/lizramos
+  If you have any questions, you may contact me liz.ramos@aim.com
+My Github username is https://github.com/lizramos611
 
