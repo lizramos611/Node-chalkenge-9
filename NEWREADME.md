@@ -1,7 +1,9 @@
-# projectname
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+# project name
+  ![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)
+  undefined
+  
 
-  # Description: this is a description
+  # Description: this is a test description for my project
 
 
   ##Table of Contents
@@ -13,16 +15,16 @@
   
 
   ## License
-  Licensed used for this project was Apache
+  Licensed used for this project was GPLv2
 
   ## Usage
-  usage for app
+  i plan on using this for testing
 
   ## Testing
-  npm testing
+  node and inquirer npm testing
 
   ## Contributors
-  linking
+  github they can fork and work on this project
 
   ## Questions
   If you have any questions, you may contact me liz.ramos@aim.com
