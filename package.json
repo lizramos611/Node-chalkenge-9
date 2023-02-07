@@ -1,5 +1,5 @@
 {
-  "name": "node-challenge-9",
+  "name": "challenge-9",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lizramos611/Node-challenge-9/issues"
   },
-  "homepage": "https://github.com/lizramos611/Node-challenge-9#readme"
+  "homepage": "https://github.com/lizramos611/Node-challenge-9#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
 }

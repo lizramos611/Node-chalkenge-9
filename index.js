@@ -1,23 +1,19 @@
 //modules required 
-const fs = require('fs');
 const inquirer = require('inquirer');
+const fs = require('fs');
 
 //will link for readme
 const generateMarkdown = require('./generateMarkdown.js');
-const util = require('util');
-const path = require('path');
-
-
-const { type } = require('os');
 
 //questions created in an array to generate the questions to develop read me
-inquirer.prompt ([
+const questions = () => {
+    return inquirer.prompt ([
     {
         type: 'input',
         message: 'What would you like to name the project?',
-        name: 'projectTitle',
-        validate: titleInput => {
-            if (titleInput) {
+        name: 'title',
+        validate: title => {
+            if (title) {
                 return true;
             } else {
                 console.log('Please enter a title in order to continue!');
@@ -71,10 +67,10 @@ inquirer.prompt ([
     {
          type:'list',
         message: 'Which license would you like to include',
-        name: 'license options',
+        name: 'license',
         choices: ['MIT', 'GPLv2', 'Apache'],
-        when: ({licenseChoice}) => {
-            if ({licenseChoice }) {
+        when: ({license}) => {
+            if ({license }) {
                     return true;
         } else {
                     return false;
@@ -107,29 +103,31 @@ inquirer.prompt ([
    
     
     ]);
-// creating the function to write all questions to file
-function writeToFile(fileName, data){
-    writeToFile.then(function () {
-        console.log('Read me complete!')
-    })
-}
-
-//creating a function to initialize the app
-    const init = () => {
-        return inquirer.prompt(questions);
-    }
     
 
+   
 
+   };
+    
+    const writeToFile = data => {
+        fs.writeFile('README.md', data, err =>{
+            if(err){
+                console.log(err);
 
+            }
+            else{
+                console.log("success!");
 
+            }
+        })
+    };
 
-// call to initialize app
-init() 
-.then(userInput => {
-    return generateMarkdown(userInput);
+   questions()
 
-})
-.catch(err => {
-    console.log(err);
-});
+   .then(data => {
+    return generateMarkdown.generateMarkdown(data);
+
+   })
+   .then(data => {
+    return writeToFile(data)
+   });
