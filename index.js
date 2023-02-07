@@ -130,4 +130,8 @@ const questions = () => {
    })
    .then(data => {
     return writeToFile(data)
+<<<<<<< HEAD
    });
+=======
+
+>>>>>>> b95333fbfd4fd4c76271c04cc002ea04cc3fcb73
