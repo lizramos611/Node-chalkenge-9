@@ -14,4 +14,4 @@ Requirements!
 <img width="1424" alt="Screenshot 2023-02-06 at 8 49 00 PM" src="https://user-images.githubusercontent.com/111591265/217127261-e3841e3a-a460-43e4-b25b-2d65c84de0f1.png">
 
 <br>
-<iframe src="https://drive.google.com/file/d/1CLqkSot7psRBx3iQqOQdaHO8fv1cJkUW/preview" width="640" height="480"></iframe>
+https://user-images.githubusercontent.com/111591265/217129464-aea9b201-d291-4f05-81c7-293e4c71353f.webm
