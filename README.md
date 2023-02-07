@@ -1,9 +1,9 @@
-* ReadME Generator using node and npm inquirer!
+ReadME Generator using node and npm inquirer!
 
 -A professional readME file can now be created with easy and simplicity by answering a few questions on your terminal!
 
 
-Requirments!
+Requirements!
 -have node.js installed on your machine https://nodejs.org/en/
 -then you must also download the inquirer package but entering npm install inquirer onto your terminal after node is installed!
 
@@ -14,3 +14,4 @@ Requirments!
 <img width="1424" alt="Screenshot 2023-02-06 at 8 49 00 PM" src="https://user-images.githubusercontent.com/111591265/217127261-e3841e3a-a460-43e4-b25b-2d65c84de0f1.png">
 
 <br>
+[Untitled_ Feb 6, 2023 9_00 PM.webm](https://user-images.githubusercontent.com/111591265/217129113-e3dfc9fc-2f3b-4a9f-8b5a-222f0fc37db4.webm)
